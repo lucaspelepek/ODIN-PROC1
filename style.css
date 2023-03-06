@@ -1,0 +1,31 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+}
+
+#links {
+    padding: 18px;
+    gap: 18px;
+    display: flex;
+}
+
+.hero-secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+#header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+}
+
