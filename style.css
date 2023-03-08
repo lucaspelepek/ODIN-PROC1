@@ -2,21 +2,43 @@ body {
     font-family: sans-serif;
 }
 
-header {
+header,
+.hero {
     background-color: #1F2937;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 18px;
+    padding-inline: 200px;
 }
 
-#links {
-    padding: 18px;
-    gap: 18px;
-    display: flex;
+#main-hero-text {
+    padding-right: 100px;
+}
+
+.hero {
+    padding-bottom: 100px;
+}
+
+#hero-main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
 }
 
 .hero-secondary-text {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+img {
+    width: 800px;
+    height: 250px;
+}
+
+#links {
+    gap: 18px;
+    display: flex;
+    align-items: center;
 }
 
 #header-logo {
@@ -29,3 +51,15 @@ a {
     color: #e5e7eb;
 }
 
+button {
+    background-color: #3882f6;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+}
