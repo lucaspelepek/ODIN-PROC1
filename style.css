@@ -11,6 +11,17 @@ header,
     padding-inline: 200px;
 }
 
+#links {
+    gap: 18px;
+    display: flex;
+    align-items: center;
+}
+
+#header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
 #main-hero-text {
     padding-right: 100px;
 }
@@ -22,7 +33,7 @@ header,
 #hero-main-text {
     font-size: 48px;
     color: #f9faf8;
-    font-weight: bolder;
+    font-weight: bold;
 }
 
 .hero-secondary-text {
@@ -30,21 +41,45 @@ header,
     color: #e5e7eb;
 }
 
-img {
+#imagem-hero {
     width: 800px;
     height: 250px;
 }
 
-#links {
-    gap: 18px;
+.information-section {
+    padding: 40px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
 }
 
-#header-logo {
-    font-size: 24px;
-    color: #f9faf8;
+#information-header {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: center;
 }
+
+.cards {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cards p{
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    color: rgb(113, 104, 104);
+}
+
+.cards img {
+    border: 5px solid #3882f6;
+    border-radius: 4px;
+    padding: 5px;
+    width: 200px;
+    height: 200px;
+  }  
 
 a {
     text-decoration: none;
